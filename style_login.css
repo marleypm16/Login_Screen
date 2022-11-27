@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #CBB192;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.welcome{
+    display: flex;
+    position: relative;
+    top: 80px;
+}
+
+.bem_vindo{
+    width: 582px;
+    height: 58px;
+    text-align: center;
+    
+}
+
+p{
+    color: #030303;
+    font-size: 40px;
+    position: relative;
+    top: 6px;
+    font-family: 'Forum', cursive;
+
+    
+}
+
+.nothing{
+    background: #030303;
+    width: 1000px;
+    height: 70px;
+}
+
+.email{
+    position: absolute;
+    top: 175px;
+    left: 444px;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+
+}
+
+.email_address{
+    position: absolute;
+    left: 451px;
+    top: 230px;
+    width: 582px;
+    height: 81px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #030303;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 21px;
+
+    
+}
+
+.email_address::placeholder{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    color: #030303;
+}
+
+.password{
+    position: absolute;
+    left: 444px;
+    top: 350px;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+
+}
+
+.senha{
+    position: absolute;
+    top: 410px;
+    left: 451px;
+    width: 582px;
+    height: 81px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #030303;
+    padding-left: 15px;
+    font-size: 21px;
+
+}
+
+.senha::placeholder{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    color: #030303;
+}
+
+.login{
+    position: absolute;
+    left: 444px;
+    top: 535px;
+    width: 582px;
+    height: 96px;
+    background: #030303;
+    font-size: 21px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #111;
+    transition: 0.5s all ease;
+}
+
+.esqueceu{
+    position: absolute;
+    left: 136px;
+    top: 660px;
+    width: 580px;
+    height: 43px;
+    text-align: right;
+    
+
+}
+
+.esqueceu>p{
+    font-size: 30px;
+}
+
+.new_user{
+    position: absolute;
+    left: 980px;
+    top: 710px;
+    font-size: 30px;
+    font-family: 'Forum', cursive;
+}
+
+.create{
+    position: absolute;
+    left: 1190px;
+    top: 700px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    width: 156px;
+    height: 50px;
+    border-radius: 25px;
+    background: #030303;
+    color: #ffffff;
+    border: 1px solid #020202;
+    cursor: pointer;
+}
+
+.create:hover{
+    background-color: #111;
+    transition: 0.5s all ease;
+}
+
+
+
+
+
+
+
+
+
+
